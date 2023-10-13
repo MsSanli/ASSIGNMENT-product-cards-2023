@@ -1,3 +1,35 @@
 body {
   background-color: red;
 }
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: center;
+    gap: 200px;
+    font-family: 'Quicksand', sans-serif;
+  }
+ 
+.card-header {
+  border-radius: 1px;
+  border-color: lightblue;
+}
+
+#product-avail {
+  background-color: gray;
+  color: yellow
+}
+
+footer {
+  font-size: 10px;
+  font-weight: bold;
+  
+}
+
+.card img {
+  max-width: 50%;
+  height: auto;
+  margin: auto;
+}
